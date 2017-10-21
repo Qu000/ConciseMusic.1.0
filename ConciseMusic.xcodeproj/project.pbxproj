@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515CBE021E7920750063AB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CBE011E7920750063AB61 /* main.m */; };
+		515CBE051E7920750063AB61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CBE041E7920750063AB61 /* AppDelegate.m */; };
+		515CBE0B1E7920750063AB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE091E7920750063AB61 /* Main.storyboard */; };
+		515CBE0D1E7920750063AB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE0C1E7920750063AB61 /* Assets.xcassets */; };
+		515CBE101E7920750063AB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE0E1E7920750063AB61 /* LaunchScreen.storyboard */; };
+		515CBE211E7927350063AB61 /* playVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CBE201E7927350063AB61 /* playVC.m */; };
+		515CBE261E7931B00063AB61 /* 庄心妍,萧全 - 爱音乐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE251E7931B00063AB61 /* 庄心妍,萧全 - 爱音乐.mp3 */; };
+		515CBE281E7931D20063AB61 /* 爱音乐.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE271E7931D20063AB61 /* 爱音乐.lrc */; };
+		515CBE2D1E7933980063AB61 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE291E7933980063AB61 /* down.png */; };
+		515CBE2E1E7933980063AB61 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE2A1E7933980063AB61 /* pause.png */; };
+		515CBE2F1E7933980063AB61 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE2B1E7933980063AB61 /* play.png */; };
+		515CBE301E7933980063AB61 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE2C1E7933980063AB61 /* up.png */; };
+		515CBE321E793DE10063AB61 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 515CBE311E793DE10063AB61 /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		515CBDFD1E7920750063AB61 /* ConciseMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConciseMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515CBE011E7920750063AB61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		515CBE031E7920750063AB61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		515CBE041E7920750063AB61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		515CBE0A1E7920750063AB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515CBE0C1E7920750063AB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515CBE0F1E7920750063AB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		515CBE111E7920750063AB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515CBE1F1E7927350063AB61 /* playVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playVC.h; sourceTree = "<group>"; };
+		515CBE201E7927350063AB61 /* playVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playVC.m; sourceTree = "<group>"; };
+		515CBE251E7931B00063AB61 /* 庄心妍,萧全 - 爱音乐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "庄心妍,萧全 - 爱音乐.mp3"; path = "myResource/庄心妍,萧全 - 爱音乐.mp3"; sourceTree = "<group>"; };
+		515CBE271E7931D20063AB61 /* 爱音乐.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "爱音乐.lrc"; path = "myResource/爱音乐.lrc"; sourceTree = "<group>"; };
+		515CBE291E7933980063AB61 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = myResource/down.png; sourceTree = "<group>"; };
+		515CBE2A1E7933980063AB61 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = myResource/pause.png; sourceTree = "<group>"; };
+		515CBE2B1E7933980063AB61 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = myResource/play.png; sourceTree = "<group>"; };
+		515CBE2C1E7933980063AB61 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up.png; path = myResource/up.png; sourceTree = "<group>"; };
+		515CBE311E793DE10063AB61 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = myResource/1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515CBDFA1E7920750063AB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515CBDF41E7920750063AB61 = {
+			isa = PBXGroup;
+			children = (
+				515CBE171E7920990063AB61 /* Resource */,
+				515CBDFF1E7920750063AB61 /* ConciseMusic */,
+				515CBDFE1E7920750063AB61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515CBDFE1E7920750063AB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515CBDFD1E7920750063AB61 /* ConciseMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515CBDFF1E7920750063AB61 /* ConciseMusic */ = {
+			isa = PBXGroup;
+			children = (
+				515CBE031E7920750063AB61 /* AppDelegate.h */,
+				515CBE041E7920750063AB61 /* AppDelegate.m */,
+				515CBE1F1E7927350063AB61 /* playVC.h */,
+				515CBE201E7927350063AB61 /* playVC.m */,
+				515CBE091E7920750063AB61 /* Main.storyboard */,
+				515CBE0C1E7920750063AB61 /* Assets.xcassets */,
+				515CBE0E1E7920750063AB61 /* LaunchScreen.storyboard */,
+				515CBE111E7920750063AB61 /* Info.plist */,
+				515CBE001E7920750063AB61 /* Supporting Files */,
+			);
+			path = ConciseMusic;
+			sourceTree = "<group>";
+		};
+		515CBE001E7920750063AB61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515CBE011E7920750063AB61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515CBE171E7920990063AB61 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				515CBE1A1E7920D20063AB61 /* lyrics */,
+				515CBE191E7920C60063AB61 /* music */,
+				515CBE181E7920B20063AB61 /* image */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		515CBE181E7920B20063AB61 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				515CBE311E793DE10063AB61 /* 1.jpg */,
+				515CBE291E7933980063AB61 /* down.png */,
+				515CBE2A1E7933980063AB61 /* pause.png */,
+				515CBE2B1E7933980063AB61 /* play.png */,
+				515CBE2C1E7933980063AB61 /* up.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		515CBE191E7920C60063AB61 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				515CBE251E7931B00063AB61 /* 庄心妍,萧全 - 爱音乐.mp3 */,
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
+		515CBE1A1E7920D20063AB61 /* lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				515CBE271E7931D20063AB61 /* 爱音乐.lrc */,
+			);
+			name = lyrics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515CBDFC1E7920750063AB61 /* ConciseMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515CBE141E7920750063AB61 /* Build configuration list for PBXNativeTarget "ConciseMusic" */;
+			buildPhases = (
+				515CBDF91E7920750063AB61 /* Sources */,
+				515CBDFA1E7920750063AB61 /* Frameworks */,
+				515CBDFB1E7920750063AB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConciseMusic;
+			productName = ConciseMusic;
+			productReference = 515CBDFD1E7920750063AB61 /* ConciseMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515CBDF51E7920750063AB61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = qujiahong;
+				TargetAttributes = {
+					515CBDFC1E7920750063AB61 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 515CBDF81E7920750063AB61 /* Build configuration list for PBXProject "ConciseMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515CBDF41E7920750063AB61;
+			productRefGroup = 515CBDFE1E7920750063AB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515CBDFC1E7920750063AB61 /* ConciseMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515CBDFB1E7920750063AB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515CBE281E7931D20063AB61 /* 爱音乐.lrc in Resources */,
+				515CBE2F1E7933980063AB61 /* play.png in Resources */,
+				515CBE101E7920750063AB61 /* LaunchScreen.storyboard in Resources */,
+				515CBE0D1E7920750063AB61 /* Assets.xcassets in Resources */,
+				515CBE2E1E7933980063AB61 /* pause.png in Resources */,
+				515CBE261E7931B00063AB61 /* 庄心妍,萧全 - 爱音乐.mp3 in Resources */,
+				515CBE301E7933980063AB61 /* up.png in Resources */,
+				515CBE0B1E7920750063AB61 /* Main.storyboard in Resources */,
+				515CBE2D1E7933980063AB61 /* down.png in Resources */,
+				515CBE321E793DE10063AB61 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515CBDF91E7920750063AB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515CBE051E7920750063AB61 /* AppDelegate.m in Sources */,
+				515CBE021E7920750063AB61 /* main.m in Sources */,
+				515CBE211E7927350063AB61 /* playVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		515CBE091E7920750063AB61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515CBE0A1E7920750063AB61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515CBE0E1E7920750063AB61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515CBE0F1E7920750063AB61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515CBE121E7920750063AB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515CBE131E7920750063AB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515CBE151E7920750063AB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConciseMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Qu.ConciseMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		515CBE161E7920750063AB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConciseMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mr.Qu.ConciseMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515CBDF81E7920750063AB61 /* Build configuration list for PBXProject "ConciseMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515CBE121E7920750063AB61 /* Debug */,
+				515CBE131E7920750063AB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515CBE141E7920750063AB61 /* Build configuration list for PBXNativeTarget "ConciseMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515CBE151E7920750063AB61 /* Debug */,
+				515CBE161E7920750063AB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515CBDF51E7920750063AB61 /* Project object */;
+}
